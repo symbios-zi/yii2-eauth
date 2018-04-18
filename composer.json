@@ -1,8 +1,8 @@
 {
-	"name": "nodge/yii2-eauth",
+	"name": "symbios/yii2-eauth",
 	"description": "Yii2 EAuth Extension. EAuth allows to authenticate users with accounts on other websites (Google, Facebook, Twitter, etc).",
 	"keywords": ["yii2", "extension", "eauth", "openid", "oauth", "authentication"],
-	"homepage": "https://github.com/Nodge/yii2-eauth",
+	"homepage": "https://github.com/symbios-zi/yii2-eauth",
 	"type": "yii2-extension",
 	"license": "New BSD License",
 	"authors": [
@@ -13,11 +13,11 @@
 		}
 	],
 	"support": {
-		"source": "https://github.com/nodge/yii2-eauth"
+		"source": "https://github.com/symbios-zi/yii2-eauth/"
 	},
 	"autoload": {
 		"psr-4": {
-			"nodge\\eauth\\": "src/"
+			"symbios-zi\\eauth\\": "src/"
 		}
 	},
 	"require": {
@@ -28,6 +28,6 @@
 		"nodge/lightopenid": "~1.1.0"
 	},
 	"extra": {
-		"bootstrap": "nodge\\eauth\\Bootstrap"
+		"bootstrap": "symbios-zi\\eauth\\Bootstrap"
 	}
 }
